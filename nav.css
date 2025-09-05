@@ -73,17 +73,24 @@ li:hover {
         width: 100%;
     }
     nav ul li {
-        margin: 8px 0;
+        margin: 12px 0;
         width: 100vw;
+        min-height: 48px;
         text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     nav ul li a {
-        font-size: 1rem;
-        padding: 8px 12px;
-        width: 90vw;
+        font-size: 1.25rem;
+        padding: 16px 0;
+        width: 92vw;
+        min-height: 48px;
         box-sizing: border-box;
         text-align: center;
         display: block;
+        font-weight: 600;
+        letter-spacing: 1.5px;
     }
     li:hover {
         transform: scale(1.08);
@@ -114,12 +121,24 @@ nav ul li a.active {
         margin: 8px 0;
     }
 
+    nav ul li {
+        margin: 10px 0;
+        width: 100vw;
+        min-height: 44px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     nav ul li a {
-        font-size: 1rem;
-        padding: 8px 12px;
-        width: 90vw;
+        font-size: 1.1rem;
+        padding: 14px 0;
+        width: 92vw;
+        min-height: 44px;
         box-sizing: border-box;
         text-align: center;
         display: block;
+        font-weight: 600;
+        letter-spacing: 1.2px;
     }
 }
